@@ -1,0 +1,14 @@
+# Utilizando el Top 10 de OWASP, ¿Que buscaria para que su sistema fuera seguro?
+
+Para hacer que el sistema sea seguro, buscaria lo siguiente, basandome en el OWASP Top 10 como guia:
+
+ - **Autenticacion y autorizacion:** Me aseguraria de que la autenticacion y autorizacion sean solidas y seguras, aplicando el uso de contrasenas seguras, autenticacion multifactorial y roles y permisos adecuados para los usuarios.
+ -  **Proteccion de datos sensibles:** Me aseguraria de que los datos sensibles, como las contrasenas y la informacion del cliente, esten protegidos adecuadamente, aplicando cifrado de los datos (en reposo y en transito), ademas de el uso de tecnicas de hashing seguras para almacenar contrasenas.
+ -  **Proteccion contra ataques de inyeccion:** Me aseguraria de que el sistema este protegido contra ataques de inyeccion, como SQL Injection y Cross-Site Scripting (XSS), aplicando la validacion adecuada de entradas de usuario y el uso de consultas parametrizadas.
+ -  **Proteccion contra ataques de denegacion de servicio:** Me aseguraria de que el sistema este protegido contra ataques de denegacion de servicio, incluyendo el uso de limites de tasa y la implementacion de medidas de mitigacion de ataques DDoS.
+ -  **Monitoreo y registro de eventos:** Me aseguraria de que el sistema este monitoreado y que los eventos importantes se registren adecuadamente, incluyendo el monitoreo de registros de acceso y el uso de herramientas de monitoreo de seguridad.
+ -  **Actualizaciones y parches:** Me aseguraria de que el sistema este actualizado y que se apliquen parches de seguridad adecuados, incluyendo el uso de herramientas de gestion de parches y la implementacion de politicas de actualizacion.
+ -  **Pruebas de seguridad:** Me aseguraria de realizar pruebas de seguridad regulares para identificar vulnerabilidades y debilidades en el sistema,  incluyendo pruebas de penetracion y pruebas de vulnerabilidades.
+ -  **Seguridad en la nube:** Me aseguraria de que la infraestructura en la nube este configurada adecuadamente y que se sigan las mejores practicas de seguridad en la nube, incluyendo el uso de grupos de seguridad, el cifrado de datos y la implementacion de politicas de acceso adecuadas.
+ -  **Capacitacion en seguridad:** Me aseguraria de capacitar a los empleados en las mejores practicas de seguridad y concientizarlos sobre los riesgos de seguridad, incluyendo la implementacion de politicas de seguridad y la realizacion de capacitaciones regulares.
+ -  **Gestion de incidentes:** Tener un plan de gestion de incidentes en su lugar para responder rapidamente a cualquier incidente de seguridad, implementando un proceso de notificacion de incidentes y la realizando simulacros de incidentes regulares.
